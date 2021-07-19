@@ -145,8 +145,7 @@ class _MainScreenState extends State<MainScreen> {
                   padding: const EdgeInsets.all(8.0),
                   child: GridView.count(
                     crossAxisCount: 2,
-                    childAspectRatio: MediaQuery.of(context).size.width /
-                        (MediaQuery.of(context).size.height / 2),
+                    childAspectRatio: 1 / 1.2,
                     scrollDirection: Axis.vertical,
                     physics: NeverScrollableScrollPhysics(),
                     crossAxisSpacing: 12,
